@@ -1,8 +1,30 @@
 .star-rating {
   font-size: 24px;
-  cursor: pointer;
 }
 
-.fa {
+.star {
   color: #ffd700; /* Cor das estrelas preenchidas */
+}
+
+.star-empty {
+  color: #ffd700; /* Cor das estrelas preenchidas */
+}
+
+.image-container{
+  margin: 10px
+}
+
+.image-container img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+}
+
+.info-container {
+ width: 70%;
 }
