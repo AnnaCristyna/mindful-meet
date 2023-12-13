@@ -1,0 +1,8 @@
+.star-rating {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.fa {
+  color: #ffd700; /* Cor das estrelas preenchidas */
+}
