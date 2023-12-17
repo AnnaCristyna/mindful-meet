@@ -1,0 +1,21 @@
+Componente profile
+ - Refazer o componente com outro nome
+ - mudar nome das tags css
+ - Acrescentar acessibilidade
+ - Acrescentar testes
+ - acrescentar responsividade
+ https://material.angular.io/cdk/categories
+
+Componente scheduler
+ - fazer o css
+ - tentar mostrar apenas 3 tabs
+
+
+Geral
+ - Configurar pipeline
+ - Pensar em internacionalização
+
+
+ No back-end
+- utilizar typescript
+- Utilizar Bun

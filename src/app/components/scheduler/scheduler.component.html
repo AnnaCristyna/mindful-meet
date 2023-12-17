@@ -1,1 +1,38 @@
-<p>scheduler works!</p>
+<div class="">
+  <mat-card>
+    <mat-card-header class="header">
+      <h2>schedule your session!</h2>
+      <p>
+        {{ timezone }}
+      </p>
+    </mat-card-header>
+
+    <mat-card-content>
+      <mat-tab-group stretchTabs>
+        <mat-tab *ngFor="let day of calendar; let i = index">
+          <ng-template mat-tab-label dynamicHeight>
+            <div class="tab-header">
+              <p>
+                {{ formatDayOfWeek(day) }}
+              </p>
+
+              <p>
+                {{ formatMonthYear(day) }}
+              </p>
+            </div>
+          </ng-template>
+
+          <ng-template matTabContent>
+            <div class="tab-content" *ngFor="let time of timetable">
+              <button mat-stroked-button color="primary" class="time-button">{{ time }}</button>
+            </div>
+          </ng-template>
+
+          <button mat-stroked-button color="primary" [disabled]="!showButtonForMore" (click)="(getMoreTimes)">
+            For More
+          </button>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-card-content>
+  </mat-card>
+</div>
