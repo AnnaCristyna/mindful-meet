@@ -32,9 +32,6 @@ export class CalendarService {
     }
 
     this.daysOfNextMonths = eachDayOfInterval(intervalMonths)
-    console.log('Dias dos próximos três meses:', this.daysOfNextMonths)
-    console.log(this.daysOfNextMonths[1].getUTCDay())
-
     return this.daysOfNextMonths
   }
   getTimezoneString(today: Date) {

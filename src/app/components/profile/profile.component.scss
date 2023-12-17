@@ -1,24 +1,12 @@
-.star-rating {
-  font-size: 24px;
-}
+.image-container {
+  margin: 10px;
 
-.star {
-  color: #ffd700; /* Cor das estrelas preenchidas */
-}
-
-.star-empty {
-  color: #ffd700; /* Cor das estrelas preenchidas */
-}
-
-.image-container{
-  margin: 10px
-}
-
-.image-container img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  object-fit: cover;
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
 }
 
 .profile {
@@ -26,5 +14,9 @@
 }
 
 .info-container {
- width: 70%;
+  width: 70%;
+}
+
+.star {
+  color: #ffd700;
 }
